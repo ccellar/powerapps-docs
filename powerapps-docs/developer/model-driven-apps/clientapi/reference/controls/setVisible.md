@@ -16,8 +16,6 @@ search.app:
 ---
 # setVisible (Client API reference)
 
-
-
 Sets a value that indicates whether the control is visible. 
 
 ## Control types supported
@@ -34,9 +32,15 @@ All
 |--|--|--|--|
 |bool|Boolean|Yes|Specify **true** to show the control; **false** to hide the control.|
 
+>[!NOTE]
+> If a control is set to false and is in a section that is hidden and if you set the control to true, the section will be visible.
+
 ### Related topics
 
 [getVisible](getVisible.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

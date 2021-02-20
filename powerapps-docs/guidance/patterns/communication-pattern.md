@@ -14,7 +14,7 @@ ms.reviewer: kathyos
 
 # Pattern: Communication
 
-![Collage of communication app screenshots](media/communication-collage.png "Collage of communication app screenshots")
+<!--![Collage of communication app screenshots](media/communication-collage.png "Collage of communication app screenshots")-->
 
 Want to quickly share news, event announcements, and the latest up-to-date information
 with your employees no matter where they are? A common use of Microsoft Power Platform is
@@ -162,3 +162,6 @@ app's key capabilities and benefits include:
     signature be automatically populated.
 
 ![Some screenshots of the Hexion Broadcast app](media/hexion-broadcaster-app.png "Some screenshots of the Hexion Broadcast app")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

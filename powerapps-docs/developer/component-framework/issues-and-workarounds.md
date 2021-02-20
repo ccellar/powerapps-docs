@@ -34,11 +34,11 @@ Here are some common issues that you might come across while using the Power App
 
 ## Publisher Prefix
 
-If a component is created using the CLI version lower than 0.4.3, you will encounter an error while trying to reimport the solution file into Common Data Service. 
+If a component is created using the CLI version lower than 0.4.3, you will encounter an error while trying to reimport the solution file into Microsoft Dataverse. 
 
 **Workaround**:
 
-- Delete the solution containing the relevant component from Common Data Service. 
+- Delete the solution containing the relevant component from Dataverse. 
 - The component should be removed from the filed or grid if the component is already configured to avoid dependencies.
 - Import the new solution with updates to the component built by the latest CLI version.
 - Newly imported components can now be configured on forms or grids.  
@@ -105,7 +105,7 @@ This warning is by design since the default `msbuild` configuration is `Configur
 
 **Workaround**
 
-Re build the solution file using  the following either of the commands and reimport the solution into Common Data Service.
+Re build the solution file using  the following either of the commands and reimport the solution into Dataverse.
 
 ```CLI
 msbuild/property:configuration:Release
@@ -135,11 +135,14 @@ Use the dataset column name (component can get the dataset column name by search
    lat = dataSet.records[currentRecordId].getValue("Address_x0020_1_x003a__x0020_Latitude")//based on the dataset column name
    ```
 
-## Power Apps component framework Datasets SharePoint issue
+<!--## Power Apps component framework Datasets SharePoint issue
 
 Power Apps component framework dataset component currently does not properly show the records from SharePoint. While the network request will succeed with the correct data records returned, the deserialization fails and an empty dataset is returned.
 
 **Workaround**
 
-No workaround as of now. We are working on pushing a fix to our deployment trains.
+No workaround as of now. We are working on pushing a fix to our deployment trains.-->
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

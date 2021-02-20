@@ -25,7 +25,7 @@ Now that the SharePoint lists are in place, we can build and customize our first
 
 ## Step 1: Generate an app from a SharePoint list
 
-1. In the **Project Requests** list you created, click or tap **PowerApps**, then **Create an app**.
+1. In the **Project Requests** list you created, click or tap **Power Apps**, then **Create an app**.
    
     ![Create an app](./media/sharepoint-scenario-generate-app/02-01-01-create-app.png)
 
@@ -169,3 +169,6 @@ The next step in this tutorial series is to [Create a flow to manage project app
 ### See also
 
 - [SharePoint integration scenarios](sharepoint/scenarios-intro.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

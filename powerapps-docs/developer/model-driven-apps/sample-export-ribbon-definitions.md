@@ -21,7 +21,7 @@ This sample shows how to export ribbon definitions. It uses the [RetrieveApplica
 
 ## How to run this sample
 
-[!include[cc-how-to-run-samples](../common-data-service/includes/cc-how-to-run-samples.md)]
+[!include[cc-how-to-run-samples](../data-platform/includes/cc-how-to-run-samples.md)]
 
 ## What this sample does
 
@@ -53,3 +53,6 @@ No clean up is required for this sample
  [Ribbon WSS schema](ribbon-wss-schema.md)
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveApplicationRibbonRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveEntityRibbonRequest>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

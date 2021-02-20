@@ -74,9 +74,12 @@ Publishing customizations makes the Web application aware of changes to the data
   
 ### See also  
 
- [Extend the Metadata Model](https://docs.microsoft.com/powerapps/developer/common-data-service/metadata-services)<br/>
+ [Extend the Metadata Model](https://docs.microsoft.com/powerapps/developer/data-platform/metadata-services)<br/>
  [Publish request schema](publish-request-schema.md)<br/>
  [Customize entity forms](customize-entity-forms.md)<br/>
  [Customize entity views](customize-entity-views.md)<br/>
  [Change application navigation using the SiteMap](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-site-map-app)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

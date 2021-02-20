@@ -1,13 +1,21 @@
 ---
-title: "Troubleshoot export to Excel | MicrosoftDocs"
-description: "Troubleshoot export to Excel."
-ms.date: 06/30/2020
-ms.service:
-  - "dynamics-365-sales"
-ms.topic: article
+title: Troubleshoot export to Excel  | Microsoft Docs
+description: Troubleshoot export to Excel
 author: udaykirang
-ms.author: udag
 manager: shujoshi
+ms.service: powerapps
+ms.component: pa-user
+ms.topic: conceptual
+ms.date: 06/30/2020
+ms.author: udag
+ms.custom: ""
+ms.reviewer: ""
+ms.assetid: 
+search.audienceType: 
+  - enduser
+search.app: 
+  - PowerApps
+  - D365CE
 ---
 
 # Troubleshoot export to Excel
@@ -44,11 +52,14 @@ This issue occurs when the data that you're accessing is password-protected and 
     > [!div class="mx-imgBorder"]
     > ![Select edit query](media/ts-e2e-select-edit-query.png "Select edit query")
 
-4. Select **Go**.
+4. When prompted, enter username and password.   
+
+5. If the following error message appears, close the **Edit Web Query** window.   
 
     > [!div class="mx-imgBorder"]
-    > ![Error message](media/ts-e2e-error-message.png "Error message")
+    > ![Error message](media/ts-e2e-error-message.png "Error message")    
 
-5. In the error message that appears, select **OK**, and then select **Import**.
+6. Refresh the data in Excel.
 
-6. Close the **Edit Web Query** window, and refresh the data.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

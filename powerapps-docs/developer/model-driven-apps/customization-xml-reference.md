@@ -35,7 +35,7 @@ The customizations.xml file is one of the files included in an exported unmanage
  [Ribbon types schema](ribbon-types-schema.md)  
  [Ribbon WSS schema](ribbon-wss-schema.md)  
  [Form XML schema](form-xml-schema.md)  
- [FetchXML schema](../common-data-service/fetchxml-schema.md) 
+ [FetchXML schema](../data-platform/fetchxml-schema.md) 
 
 ## Related Sections
 
@@ -43,3 +43,6 @@ The customizations.xml file is one of the files included in an exported unmanage
 [Edit the Customizations file with schema validation](edit-customizations-xml-file-schema-validation.md)  
 [Customize the Ribbon for Dynamics 365](customize-commands-ribbon.md)  
 [Change application navigation using the SiteMap](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-site-map-app) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -169,7 +169,7 @@ Consider the following example HTTP response that still includes the inner error
   "error":{
     "code": "This code is not related to the http status code and is frequently empty",
     "message": "A message describing the error",
-    "cdscode": "Common Data Service error code",
+    "cdscode": "Dataverse error code",
     "innererror": {
         "code": "800xxxx",
         "message": "A message describing the error. This is frequently the same as the outer message.."
@@ -203,3 +203,6 @@ Response for unhandled errors with HTTP status code 500 will return the error "A
 
 [Web API overview](web-api-overview.md)  
 [Perform Web API operations](web-api-perform-operations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -34,7 +34,7 @@ Model-driven apps
 
 ## Return Value
 
-Type: `Promise<OpenFormSuccessResponse>`
+Type: `Promise<OpenFormSuccessResponse>`. The `openFormSuccessResponse` returns an array of type `savedEntityReference` with the values present in the [EntityReference](../entityreference.md) method.
 
 ## Remarks
 
@@ -45,3 +45,6 @@ See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/reference/Global
 [Navigation](../navigation.md)<br/>
 [Power Apps component framework API reference](../../reference/index.md)<br/>
 [Power Apps component framework overview](../../overview.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

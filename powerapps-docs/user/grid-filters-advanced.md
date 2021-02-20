@@ -14,18 +14,26 @@ search.audienceType:
 search.app: 
   - PowerApps
   - D365CE
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-account
+  - D365-Entity-contact
+  - D365-Entity-actity
+  - D365-UI-View
+  - Power Platform
+  - Power Apps
 ---
 
 
 # Edit or create personal views using advanced grid filters 
 
-Use the advanced filter options to create a personal view to see the records that are important to you. The advanced filter options let you create a wide range of views from simple to complex. It also lets you add grouped and nested conditions to the filters.
+Use the advanced filter options to create a personal view to see the rows that are important to you. The advanced filter options let you create a wide range of views from simple to complex. It also lets you add grouped and nested conditions to the filters.
 
 
 > [!NOTE]
 > - The advanced filter option is available only in English language versions. We plan to support more languages in future releases.
-> - The advanced filter option on the Queues entity does not work and displays this error messsage: We are unable to display the filter conditions for this view.
-> - In the Unified Interface grids do not prepopulate column filters based on the current view definition.
+> - The advanced filter option on the Queues table does not work and displays this error message: We are unable to display the filter conditions for this view.
+> - In Unified Interface, grids do not prepopulate column filters based on the current view definition.
 > - Public views created in Power Apps that include **Contains data** or **Does not contain data** filters will not appear in the list of saved views in Advanced Find.
 
 When you create and save a personal view, it appears in your list of personal views under **My Views**.
@@ -78,3 +86,6 @@ An asterisk next to a view name indicates the view has not been saved.
 
 
    
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

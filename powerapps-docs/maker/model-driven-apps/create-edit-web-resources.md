@@ -25,6 +25,8 @@ search.app:
 ---
 # Create or edit model-driven app web resources to extend an app
 
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
 > [!TIP]
@@ -46,7 +48,7 @@ Because web resources are data in the system and are solution aware, you can mov
   
 ## Solution publisher prefix
 
-Part of the name of any web resource you create is the solution publisher prefix. This is set based on the solution publisher for the solution you’re working in. Make sure that you are working in the unmanaged solution where the publisher prefix is the one you want for this web resource. More information: [Solution publisher](../common-data-service/create-solution.md#solution-publisher)  
+Part of the name of any web resource you create is the solution publisher prefix. This is set based on the solution publisher for the solution you’re working in. Make sure that you are working in the unmanaged solution where the publisher prefix is the one you want for this web resource. More information: [Solution publisher](../data-platform/create-solution.md#solution-publisher)  
 
 ## View and add web resources
 1. Sign in to [Power Apps](https:///?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), and then on the left navigation pane select **Solutions**. 
@@ -62,14 +64,14 @@ Part of the name of any web resource you create is the solution publisher prefix
 
     ![Create a web resource](media/new-web-resource-form.png)
   
-|Field|Description|  
+|Column|Description|  
 |-----------|-----------------|  
 |**Name**|*Required*. This is the unique name for this web resource. You can’t change this after you save the web resource.<br />&bull; This name can only include letters, numbers, periods, and nonconsecutive forward slash (“/”) characters.<br /> &bull; The solution publisher customization prefix will be prepended to the name of the web resource.|  
 |**Display Name**|The name displayed if you view a list of web resources.|  
 |**Description**|A description of the web resource.|  
 |**Type**|*Required*. This is the type of web resource. You can’t change this after you save the web resource.|  
 |**Text Editor**|When the type of web resource represents a kind of text file, select this button to open a page to edit the content using the text editor.<br />More information: [Use the text editor appropriately](#use-the-text-editor-appropriately)| 
-|**Language**|Allows for a selection of a language. This option just tags the record that stores the web resource data. It doesn’t change the behavior of the web resource.|  
+|**Language**|Allows for a selection of a language. This option just tags the row that stores the web resource data. It doesn’t change the behavior of the web resource.|  
 |**Upload File**|Select the **Browse…** button to choose a file to upload as a web resource.<br />&bull; You can upload a file when creating a new web resource or to overwrite an existing web resource.<br />&bull; The file name extension of the file must match allowed extensions.<br />&bull; By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified by using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. More information: [System Settings dialog box - Email tab](https://docs.microsoft.com/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab) |  
 |**URL**|After you save the web resource, the URL to the web resource will be displayed here. Select this link to view the web resource in your browser.|  
   
@@ -102,7 +104,7 @@ You can add or edit web resources on a form to make it more appealing or useful 
 [!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
 
 ### Navigate to a form
-With solution explorer open, under **Components**, expand **Entities**, and then expand the entity you want to work with.
+With solution explorer open, under **Components**, expand **Entities**, and then expand the table you want to work with.
 
 Choose **Forms**, in the list locate a form of type Main, and then double-click or tap the entry to open and edit the form.
 
@@ -123,7 +125,7 @@ When you finish editing the form, on the **Home** tab, select **Save and Close**
 ### Publish
 
 When your customizations are complete, publish them:
-- To publish customizations for only the component that you are currently editing, in the navigation pane, select the entity you have been working on, and then select **Publish**.
+- To publish customizations for only the component that you are currently editing, in the navigation pane, select the table you have been working on, and then select **Publish**.
 - To publish customizations for all unpublished components at one time, in the navigation pane, select **Entities**, and then on the **Actions** toolbar, select **Publish All Customizations**.
    
   
@@ -133,3 +135,6 @@ When your customizations are complete, publish them:
 [Create and design forms](create-design-forms.md) <br />
 [Understand model-driven app components](model-driven-app-components.md) <br /> 
 [Developer Documentation: Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

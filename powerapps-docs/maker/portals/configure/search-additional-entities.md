@@ -5,7 +5,7 @@ author: sandhangitmsft
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 09/22/2020
+ms.date: 02/08/2021
 ms.author: sandhan
 ms.reviewer: tapanm
 ---
@@ -50,7 +50,7 @@ You can also configure other related site settings similar to the search configu
 
 The record details page is configured using a **Site Marker** named `<entitylogicalname>_SearchResultPage`.
 
-For example, if your entity logical name is *nwind_products*, the site marker will be `nwind_products_SearchResultPage`. The value of the site marker is the record details page that you want to open when that search result is selected. By default, a record ID is passed in the *id* querystring parameter to the record details page. For more information about adding forms on a page, go to [Compose a page](../compose-page.md#add-form).
+For example, if your entity logical name is *nwind_products*, the site marker will be `nwind_products_SearchResultPage`. The value of the site marker is the record details page that you want to open when that search result is selected. By default, a record ID is passed in the *id* querystring parameter to the record details page. For more information about adding forms on a page, go to [Compose a page](../add-form.md).
 
 > [!IMPORTANT]
 > Ensure that your record details page has an entity form, or has logic written to show the search result details. For example, [Step 4 - Add record details page](#step-4-add-record-details-webpage) in the following walkthrough.
@@ -58,7 +58,7 @@ For example, if your entity logical name is *nwind_products*, the site marker wi
 The following walkthrough explains each step in detail with a sample database and solution to configure search for additional entities.
 
 > [!NOTE]
-> - This walkthrough explains how to enable search for the **Order Products** entity in the sample database **Northwind**, available with Common Data Service. For more information about sample databases, see [Install Northwind Traders database and apps](../../canvas-apps/northwind-install.md).
+> - This walkthrough explains how to enable search for the **Order Products** entity in the sample database **Northwind**, available with Microsoft Dataverse. For more information about sample databases, see [Install Northwind Traders database and apps](../../canvas-apps/northwind-install.md).
 > - You can follow the walkthrough with an entity of your choice by replacing the *nwind_products* entity name with your entity's logical name.
 
 ## Step 1: Add or update search site settings
@@ -218,3 +218,6 @@ The following walkthrough explains each step in detail with a sample database an
 ### See also
 
 [Search related site settings](search.md#related-site-settings)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

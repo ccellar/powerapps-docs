@@ -14,6 +14,15 @@ ms.reviewer: tapanm
 
 In this article, learn about the frequently asked questions and the answers about using the sample apps available in the Teams store.
 
+## When I try to install a sample app, I get an error that the app is already in the team.
+
+You may see the following error when you try to install a sample app in a team that already has the app installed, but you’re not the app owner, or the team owner.
+
+`This app is already in this team` <br>
+`To update it, you must be its owner or a team owner.`
+
+When this happens, use the installed app, or install the app in a different team.
+
 ## How can I move an app to another channel in the same Team?
 
 For the steps to move an app, go to [Move an app to another Teams channel in the same team](publish-and-share-apps.md#move-an-app-to-another-teams-channel-in-the-same-team).
@@ -47,7 +56,13 @@ If your inspection forms are loading slowly, reduce the size of images used in t
 
 ### See also
 
-- [Employee Ideas and Manage Campaigns sample apps](employee-ideas.md)  
-- [Inspection sample apps](inspection.md)  
-- [Issue Reporting sample apps](issue-reporting.md)
 - [Customize sample apps](customize-sample-apps.md)
+- [Bulletins (Preview) sample apps](bulletins.md)
+- [Employee ideas sample app](employee-ideas.md)  
+- [Inspection sample apps](inspection.md)  
+- [Issue reporting sample apps](issue-reporting.md)
+- [Milestones (Preview) sample app](milestones.md)
+- [Use sample apps from the Microsoft Teams store](use-sample-apps-from-teams-store.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

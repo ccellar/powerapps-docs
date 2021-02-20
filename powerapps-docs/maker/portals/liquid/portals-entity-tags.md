@@ -1,6 +1,6 @@
 ---
-title: "Use Power Apps Common Data Service entity tags for a portal | MicrosoftDocs"
-description: "Learn about Power Apps Common Data Service entity tags available in portal."
+title: "Use Power Apps entity tags for a portal | MicrosoftDocs"
+description: "Learn about Power Apps entity tags available in portal."
 author: gitanjalisingh33msft
 ms.service: powerapps
 ms.topic: conceptual
@@ -10,9 +10,11 @@ ms.author: gisingh
 ms.reviewer: tapanm
 ---
 
-# Power Apps Common Data Service entity tags
+# Dataverse entity tags
 
-Power Apps entity tags are used to load and display Power Apps data, or use other Power Apps portals framework services. These tags are Power Apps-specific extensions to the Liquid language.
+[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+
+Microsoft Dataverse entity tags are used to load and display Dataverse data, or use other Power Apps portals framework services. These tags are Dataverse-specific extensions to the Liquid language.
 
 ## chart
 
@@ -39,7 +41,7 @@ ID of the entity when opened in view editor.
 Adds the Power BI dashboards and reports within pages. The tag can be added in the **Copy** field on a web page or in the **Source** field on a web template. For steps to add a Power BI report or dashboard to a webpage in portal, see [Add a Power BI report or dashboard to a webpage in portal](../admin/add-powerbi-report.md).
 
 > [!NOTE]
-> For the tag to work, you must [enable Power BI integration](../admin/set-up-power-bi-integration.md) from Power Apps Portals admin center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
+> For the tag to work, you must [enable Power BI integration](../admin/set-up-power-bi-integration.md) from Power Apps portals admin center. If the Power BI integration is not enabled, dashboard or report will not be displayed.
 
 ### Parameters
 
@@ -710,3 +712,6 @@ The name of the Web Form you wish to load.
 [Iteration tags](iteration-tags.md)<br>
 [Variable tags](variable-tags.md)<br>
 [Template tags](template-tags.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

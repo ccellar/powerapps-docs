@@ -89,8 +89,8 @@ Do the following:
 
 |Flow name|Changes|
 |--|--|
-|**Portal User Request: Send Email on Decline Request**|Update the connection to connect to Common Data Service and then specify a user account to send emails.|
-|**Portal User Request: Send Email to Admins on Request Creation**|Update the connection to connect to Common Data Service and then specify a user account to send emails. Additionally, update the portal URL in the email body as per your Portal URL.| 
+|**Portal User Request: Send Email on Decline Request**|Update the connection to connect to Microsoft Dataverse and then specify a user account to send emails.|
+|**Portal User Request: Send Email to Admins on Request Creation**|Update the connection to connect to Dataverse and then specify a user account to send emails. Additionally, update the portal URL in the email body as per your Portal URL.| 
 
 For detailed information about this, see [Step 11.1: Fix the flows for sending emails](deploy.md##step-111-fix-the-flows-for-sending-emails) in the deployment topic.
 
@@ -99,3 +99,6 @@ For detailed information about this, see [Step 11.1: Fix the flows for sending e
 Verify and authorize the connection information of the flows for performing specific tasks.
 
 For details about how to do this, see [Step 11.2: Fix the flows for performing specific tasks](/powerapps/sample-apps/regional-emergency-response/deploy#step-112-fix-the-flows-for-performing-specific-tasks) in the deployment topic.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,6 +97,7 @@ Predefined patterns provide a simple way to match either one of a set of charact
 | **Period** |Matches a period or dot ("."). |`\.` |
 | **RightParen** |Matches a right parenthesis ")". |`\)` |
 | **Space** |Matches a character that adds whitespace. |`\s` |
+|**Tab**|Matches a tab character.|`\t`|
 
 For example, the pattern **"A" & MultipleDigits** will match the letter "A" followed by one or more digits.  
 
@@ -227,3 +228,6 @@ To see the results of **MatchAll** in a gallery:
     The gallery is filled with each word in our example text.  Resize the gallery's template and the label control in order to see all the words on one screen.
 
 	![](media/function-ismatch/pangram-gallery2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

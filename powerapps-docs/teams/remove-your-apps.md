@@ -12,8 +12,6 @@ ms.reviewer: tapanm
 
 # Remove an app from your team
 
-[!INCLUDE [cc-beta-prerelease-disclaimer.md](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Removing an app that was added as a tab from a Microsoft Teams channel makes it inaccessible from the Teams tab for all members of the Teams channel.
 
 To remove an app from your team:
@@ -40,3 +38,6 @@ The app is now removed from your Teams channel.
 
 [Uninstall the Power Apps personal app](uninstall-personal-apps.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

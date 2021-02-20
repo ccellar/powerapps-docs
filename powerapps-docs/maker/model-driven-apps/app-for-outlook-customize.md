@@ -6,6 +6,7 @@ author: mduelae
 ms.author: mkaur
 manager: kvivek
 ms.date: 06/19/2019
+ms.service: powerapps
 ms.topic: article
 applies_to: 
   - Dynamics 365 (online)
@@ -38,3 +39,6 @@ For detailed information on how to customize the App for Outlook, see [Customizi
 
 ### See also
  [Use Dynamics 365 App for Outlook](../../user/use-outlook-app.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

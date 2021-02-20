@@ -332,7 +332,7 @@ The build generates an updated TypeScript type declaration file under the `TSLin
 The component is compiled into the `out/controls/TSLinearInputComponent` folder. The build artifacts include:
 
    - bundle.js – Bundled component source code. 
-   - ControlManifest.xml – Actual component manifest file that is uploaded to the Common Data Service organization.
+   - ControlManifest.xml – Actual component manifest file that is uploaded to the Microsoft Dataverse organization.
 
 ## Debugging your code component
 
@@ -344,7 +344,7 @@ npm start
 
 ## Packaging your code components
 
-Follow these steps to create and import a [solution](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview) file:
+Follow these steps to create and import a [solution](https://docs.microsoft.com/powerapps/maker/data-platform/solutions-overview) file:
 
 1. Create a new folder **Solutions** inside the **LinearComponent** folder and navigate into the folder. 
 2. Create a new solution project in the **LinearComponent** folder using the following command:
@@ -354,7 +354,7 @@ Follow these steps to create and import a [solution](https://docs.microsoft.com/
     ```
 
    > [!NOTE]
-   > The [publisher-name](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/publisher) and [publisher-prefix](https://docs.microsoft.com/powerapps/maker/common-data-service/change-solution-publisher-prefix) values must be unique to your environment.
+   > The [publisher-name](https://docs.microsoft.com/powerapps/developer/data-platform/reference/entities/publisher) and [publisher-prefix](https://docs.microsoft.com/powerapps/maker/data-platform/change-solution-publisher-prefix) values must be unique to your environment.
  
 3. Once the new solution project is created, you need to refer to the location where the created component is located. You can add the reference by using the following command:
 
@@ -373,8 +373,8 @@ Follow these steps to create and import a [solution](https://docs.microsoft.com/
      msbuild
     ```
     > [!TIP]
-    > You will be hit with the error: *Do not use the `eval` function or its functional equivalents*, when you build the solution file using the `msbuild` command and import it into Common Data Service and run the solution checker.
-    > Re build the solution file using the command `msbuild/property:configuration=Release` and reimport the solution into Common Data Service and run the solution checker.
+    > You will be hit with the error: *Do not use the `eval` function or its functional equivalents*, when you build the solution file using the `msbuild` command and import it into Dataverse and run the solution checker.
+    > Re build the solution file using the command `msbuild/property:configuration=Release` and reimport the solution into Dataverse and run the solution checker.
       
     > [!NOTE]
     > Make sure that **NuGet targets & Build Tasks** is checked. To enable it:
@@ -384,7 +384,7 @@ Follow these steps to create and import a [solution](https://docs.microsoft.com/
     > - Under **Code Tools**, check **NuGet targets & Build Tasks**.
 
 6. The generated solution zip file is located in the `Solution\bin\debug` folder.
-7. Manually [import the solution into Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) using the web portal once the zip file is ready or automatically using the [Microsoft Power Platform Build Tools](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.PowerPlatform-BuildTools).
+7. Manually [import the solution into Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/import-update-export-solutions) using the web portal once the zip file is ready or automatically using the [Microsoft Power Platform Build Tools](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.PowerPlatform-BuildTools).
 
 ## Adding code components in model-driven apps
 
@@ -399,6 +399,9 @@ To add the code components to a canvas app, follow the steps in the article [Add
 [Download sample components](https://github.com/microsoft/PowerApps-Samples/tree/master/component-framework)<br/>
 [Learn Power Apps component framework](https://docs.microsoft.com/learn/paths/use-power-apps-component-framework)<br/>
 [Update existing Power Apps component framework components](updating-existing-controls.md)<br/>
-[Microsoft Power Platform Build Tools](https://docs.microsoft.com/powerapps/developer/common-data-service/build-tools-overview)<br/>
+[Microsoft Power Platform Build Tools](https://docs.microsoft.com/powerapps/developer/data-platform/build-tools-overview)<br/>
 [Power Apps component framework API reference](reference/index.md)<br/>
 [Power Apps component framework overview](overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -25,6 +25,7 @@ Provides a container for useful methods.
 |[closeProgressIndicator](xrm-utility/closeProgressIndicator.md) |[!INCLUDE[./xrm-utility/includes/closeProgressIndicator-description.md](./xrm-utility/includes/closeProgressIndicator-description.md)]|
 |[getAllowedStatusTransitions](xrm-utility/getAllowedStatusTransitions.md) |[!INCLUDE[./xrm-utility/includes/getAllowedStatusTransitions-description.md](./xrm-utility/includes/getAllowedStatusTransitions-description.md)]|
 |[getEntityMetadata](xrm-utility/getEntityMetadata.md) |[!INCLUDE[./xrm-utility/includes/getEntityMetadata-description.md](./xrm-utility/includes/getEntityMetadata-description.md)]|
+|[getEntityMainFormDescriptor](xrm-utility/getEntityMainFormDescriptor.md)|[!INCLUDE[./xrm-utility/includes/getEntityMainFormDescriptor-description.md](./xrm-utility/includes/getEntityMainFormDescriptor-description.md)]
 |[getGlobalContext](xrm-utility/getGlobalContext.md) |[!INCLUDE[./xrm-utility/includes/getGlobalContext-description.md](./xrm-utility/includes/getGlobalContext-description.md)]|
 |[getLearningPathAttributeName](xrm-utility/getLearningPathAttributeName.md) |[!INCLUDE[./xrm-utility/includes/getLearningPathAttributeName-description.md](./xrm-utility/includes/getLearningPathAttributeName-description.md)]|
 |[getPageContext](xrm-utility/getPageContext.md) |[!INCLUDE[./xrm-utility/includes/getPageContext-description.md](./xrm-utility/includes/getPageContext-description.md)]|
@@ -59,3 +60,6 @@ The following table lists the new methods you should use instead of the deprecat
 
 [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

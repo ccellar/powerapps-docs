@@ -5,24 +5,26 @@ author: neerajnandwana-msft
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: 
-ms.date: 07/06/2020
+ms.date: 02/08/2021
 ms.author: nenandw
 ms.reviewer: tapanm
 ---
 
 # Portal templates
 
-Based on the selected environment in Power Apps, you can create a Common Data Service starter portal or a portal in an environment containing customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation).
+Based on the selected environment in Power Apps, you can create a Dataverse starter portal or a portal in an environment containing customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation).
 
-## Environment with Common Data Service
+## Environment with Dataverse
 
-If you select an environment that contains Common Data Service, you can create a Common Data Service starter portal. The Common Data Service starter portal comes with the sample data for you to quickly get started. It also has the following built-in sample pages:
+If you select an environment that contains Microsoft Dataverse, you can create a [Dataverse starter portal](create-portal.md). The Dataverse starter portal comes with the sample data for you to quickly get started. It also has the following built-in sample pages:
 
 - Default studio template
 - Page with title
 - Page with child links
 
-## Environment with customer engagement apps 
+To create a portal in an environment with Dataverse, go to [Create a Dataverse starter portal](create-portal.md).
+
+## Environment with customer engagement apps
 
 If you select an environment that contains customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, or Dynamics 365 Project Service Automation), you can create the following portals:
 
@@ -37,11 +39,13 @@ If you select an environment that contains customer engagement apps (Dynamics 36
 - **Portal from blank**: Create a website to share data with external and internal users. This template comes with sample pages to get you quickly started.
 - **Customer Portal (Preview)**: A Supply Chain Management Customer Portal template provisions an externally facing B2B order placing website. This template allows external users to create and view orders to the associated Dynamics 365 for Supply Chain Management environment. Customer Portal template is in *Preview*. For more information about *preview* features, see [Understand preview features in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-experimental-preview).
 
+For creating a portal with any of the above templates, go to [Create a portal with an environment containing customer engagement apps](create-portal.md).
+
 ## Portal templates features
 
 The table below summarizes the features associated with each portal template:
 
-| Feature | Customer self-service portal | Partner portal | Employee self-service portal | Community portal | Portal from blank | Common Data Service starter portal| Customer Portal (Preview) | 
+| Feature | Customer self-service portal | Partner portal | Employee self-service portal | Community portal | Portal from blank | Dataverse starter portal| Customer Portal (Preview) | 
 |------------------|---------------|----------------|---------------|------------------|---------------|------|-|
 | World Ready | *  | * | * | * | * |* |*
 | Multi-Language Support | *  | * | * | * | * |* |*
@@ -71,6 +75,14 @@ The table below summarizes the features associated with each portal template:
 | Feedback|   *|  *|  *| *| *|* |*
 ||
 
+## Next steps
+
+[Create a Dataverse starter portal](create-portal.md)
+
 ### See also
 
-[Microsoft Learn: Explore Power Apps portals](https://docs.microsoft.com/learn/modules/explore-portals)
+[Microsoft Learn: Explore Power Apps portals](https://docs.microsoft.com/learn/modules/explore-portals) <br>
+[Create a portal with an environment containing customer engagement apps](create-portal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
